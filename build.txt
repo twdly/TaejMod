@@ -1,0 +1,3 @@
+displayName = Return of the vexos
+author = Taejlet (vexo)
+version = 0.1
