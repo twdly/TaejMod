@@ -8,7 +8,7 @@ namespace VexoVexing.Items.WaterArrow
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("This should not be possible");
+            // Tooltip.SetDefault("This should not be possible");
             Item.SetNameOverride("Water arrow");
         }
 

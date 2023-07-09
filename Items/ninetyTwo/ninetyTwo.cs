@@ -10,8 +10,8 @@ namespace VexoVexing.Items.ninetyTwo
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Ninety Two"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-            Tooltip.SetDefault("This is a little bit of a roiling.");
+            // DisplayName.SetDefault("Ninety Two"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
+            // Tooltip.SetDefault("This is a little bit of a roiling.");
             ItemID.Sets.LockOnIgnoresCollision[Item.type] = true;
         }
 

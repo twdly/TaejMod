@@ -9,7 +9,7 @@ namespace VexoVexing.Items.ninetyTwo
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Ninety Two");
+            // DisplayName.SetDefault("Ninety Two");
             Main.projPet[Projectile.type] = true;
             ProjectileID.Sets.MinionSacrificable[Projectile.type] = true;
         }
@@ -36,7 +36,7 @@ namespace VexoVexing.Items.ninetyTwo
             return true;
         }
 
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             target.life = 0;
         }

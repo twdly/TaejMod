@@ -1,0 +1,36 @@
+Buffs: {
+	NinetyTwoMinionBuff: {
+		DisplayName: Ninety Two Minion Buff
+		Description: Mods.VexoVexing.Buffs.NinetyTwoMinionBuff.Description
+	}
+}
+
+Items: {
+	huh: {
+		DisplayName: huh
+		Tooltip: ""
+	}
+
+	ninetyTwo: {
+		DisplayName: ninety Two
+		Tooltip: ""
+	}
+
+	Susceptre: {
+		DisplayName: Susceptre
+		Tooltip: ""
+	}
+
+	WaterArrow: {
+		DisplayName: Water Arrow
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	NinetyTwoMinionProjectile.DisplayName: Ninety Two Minion Projectile
+	AmongMinion.DisplayName: Among Minion
+	SusceptreProjectile.DisplayName: Susceptre Projectile
+	DropletProjectile.DisplayName: Droplet Projectile
+	WaterArrowProjectile.DisplayName: Water Arrow Projectile
+}

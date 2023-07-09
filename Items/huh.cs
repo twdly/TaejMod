@@ -9,7 +9,7 @@ namespace VexoVexing.Items
         public override void SetStaticDefaults()
         {
             // DisplayName.SetDefault("huh"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-            Tooltip.SetDefault("This is a basic modded sword.");
+            // Tooltip.SetDefault("This is a basic modded sword.");
         }
 
         public override void SetDefaults()

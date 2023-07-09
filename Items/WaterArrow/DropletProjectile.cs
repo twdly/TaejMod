@@ -14,7 +14,7 @@ namespace VexoVexing.Items.WaterArrow
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Water Arrow Droplet");
+            // DisplayName.SetDefault("Water Arrow Droplet");
         }
 
         public override void SetDefaults()

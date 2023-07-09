@@ -11,7 +11,7 @@ namespace VexoVexing.Items.WaterArrow
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Water Arrow");
+            // DisplayName.SetDefault("Water Arrow");
         }
 
         public override void SetDefaults()
@@ -52,7 +52,7 @@ namespace VexoVexing.Items.WaterArrow
             return true;
         }
 
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             // Maximum of 359. 360 crashes the game
             int projectiles = 12;

@@ -9,8 +9,8 @@ namespace VexoVexing.Items.ninetyTwo
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Ninety Two");
-            Description.SetDefault("The best number will roil you");
+            // DisplayName.SetDefault("Ninety Two");
+            // Description.SetDefault("The best number will roil you");
             Main.buffNoSave[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
         }

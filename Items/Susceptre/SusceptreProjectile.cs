@@ -12,7 +12,7 @@ namespace VexoVexing.Items.Susceptre
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Sussy laser");
+            // DisplayName.SetDefault("Sussy laser");
         }
 
         public override void SetDefaults()
@@ -35,7 +35,7 @@ namespace VexoVexing.Items.Susceptre
             Projectile.rotation = Projectile.velocity.ToRotation();
         }
 
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             Vector2 spawnVelocity = new Vector2(0, 0);
             Projectile.NewProjectile(Entity.GetSource_FromThis(), target.Center, spawnVelocity, ModContent.ProjectileType<AmongMinion>(), Projectile.damage, 0, Main.myPlayer);

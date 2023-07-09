@@ -10,7 +10,7 @@ namespace VexoVexing.Items.Susceptre
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Imposters");
+            // DisplayName.SetDefault("Imposters");
             Main.projPet[Projectile.type] = true;
             ProjectileID.Sets.MinionSacrificable[Projectile.type] = true;
         }
@@ -76,7 +76,7 @@ namespace VexoVexing.Items.Susceptre
             // Dust.NewDustPerfect(Projectile.position, ModContent.DustType<ninetytwodust>());
         }
 
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             target.immune[Projectile.owner] = 3;
         }
